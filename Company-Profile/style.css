@@ -1,0 +1,252 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding:5px 0;
+    background-color: #C70039;
+}
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container {
+    width:100%;
+    margin:0 auto;
+    padding: 10px;
+    color:#C70039;
+    display: inline-block;  
+}
+.container:after{ 
+    content:'';
+    display: inline;
+    clear: both;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #C70039;
+    color: white;
+    justify-content: center ;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+    /* padding; */
+}
+
+.navbar li {
+    padding: 20px;
+    list-style-type: none;
+    font-size:15px;
+}
+
+.img__pertamina {
+    width: 200px;
+    margin-right:509px ;
+     
+}
+
+.logo{
+    margin-right: 400px;
+    
+}
+
+
+.desk {
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    
+}
+
+header h1 {
+    float: left;
+    padding:15px 0;
+    color:#0f0e0e;
+}
+
+header ul li a{
+    padding:25%px 20%px;
+
+}
+header ul li a:hover {
+    background-color: #C70039;
+    color:hsl(0, 0%, 0%);
+padding: 20%;
+}
+.active {
+    background-color: #000000;
+    color:#fff;
+    text-align: right;
+    justify-content: center;
+}
+.logo {
+    width: 15%;
+    height: 15%;
+}
+.pertimg{
+    width: 40rem;
+}
+/* .banner:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color:rgba(#090000,.6);
+} */
+.banner h2 {
+    color:#fff;
+    z-index: 1;
+    padding: 20% 25%;
+    border: 3px solid #fff;
+}
+section {
+    padding: 50px 0;
+}
+section h3 {
+    text-align: Center;
+    padding:20px 0;
+    color: #060000;
+    margin-bottom: 30px;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.Service {
+    background-color: #666;
+}
+.TENTANGKAMI{
+    color: #000000;
+    text-align:20px center;
+    padding:30px 0;
+    font-size: 25;
+    justify-content: center;
+}
+.contact {
+    margin:100px 0;
+    padding: 50px 50;
+    justify-content: center;
+}
+
+.contact h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 115, 208);
+    width: 50%;
+    height: 20rem;
+    display: flex;
+  
+}
+
+.loc-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea{
+    justify-self: center;
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+}
+.PERTAMINA{
+    height: 20vh;
+    align-items: center;
+}
+body {
+    background-color: #fff;
+    /*background: url(Untitled.jpeg); */
+   /*background: linearGradient(90deg, #444, #fff); */
+   /*background-size: cover; */
+}
+h1{
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.kotak {
+    padding: 50px;
+    width: 100px;
+    color: #fff;
+    margin: 10px;
+    background: orange;
+}
+
+#kotak {
+    width: 400px;
+    color: #fff;
+    background: blue;
+    padding: 50px;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #020000;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #010407;margin: auto;
+    }
+    .table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+    }
+    .table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+    }
+    .table1 tr:hover {
+    background-color:#fff;
+    }
+    .table1 tr:nth-child(even) {
+    background-color:#fff;
+    }
+
+    .banner p{
+        position: relative;
+        left: 900px;
+        color: #000000;
+        bottom: 400px;
+        font-size: 20px;
+    }
+
+    .banner h3{
+        position: relative;
+        left: 300px;
+        color: #000000;
+        bottom: 400px;
+        font-size: 20px;
+    }
+
+
+    
